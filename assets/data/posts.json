@@ -7,7 +7,6 @@
     "likes": 12,
     "user": {
       "id": "u1",
-      "avatar_url": "samples/people/boy-snow-hoodie",
       "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
       "username": "debiwein",
       "name": "Debora Weinmann"
@@ -21,7 +20,6 @@
     "likes": 5,
     "user": {
       "id": "u1",
-      "avatar_url": "samples/bike",
       "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg",
       "username": "pinedaliz",
       "name": "Lizeth Pineda"
@@ -36,7 +34,6 @@
     "likes": 7,
     "user": {
       "id": "u1",
-      "avatar_url": "samples/animals/cat",
       "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg",
       "username": "shariq",
       "name": "Hafsa Shariq"
@@ -50,7 +47,6 @@
     "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
     "user": {
       "id": "u1",
-      "avatar_url": "samples/people/smiling-man",
       "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
       "username": "debiwein",
       "name": "Debora Weinmann"

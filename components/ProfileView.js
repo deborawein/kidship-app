@@ -1,21 +1,24 @@
-import { View, Text, ScrollView, Image, TouchableOpacity } from 'react-native'
+import { View, Text, ScrollView, Image, TouchableOpacity, FlatList, Pressable } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import { router } from 'expo-router';
+import { router, Link } from 'expo-router';
 import Ionicons from '@expo/vector-icons/Ionicons';
-
 
 
 export default function ProfileView({ user }) {
     return (
 
         <>
-            <View className='flex-row items-center justify-between'>
+            <View className='flex-row items-center justify-between px-3'>
+            <Link href="/(tabs)/profile/settings-modal">
+            <Ionicons name="settings" size={26} color="black" />
+            </Link>
                 <View className='flex-row items-center'>
-                    <Text className='font-pbold text-2xl px-3'>{user.user.username}</Text>
-                    </View>
-                    <Ionicons name="log-out-outline" size={24} color="black" className='px-3'/>
+                    <Text className='font-pbold text-2xl'>{user.user.username}</Text>
+                </View>
+                <Ionicons name="log-out-outline" size={26} color="black" className='px-3' />
+
             </View>
             <View className='flex-row items-center justify-around py-5'>
                 <View className='items-center'>
@@ -24,14 +27,16 @@ export default function ProfileView({ user }) {
                 </View>
             </View>
             <View className='w-full flex-row items-center justify-evenly px-5'>
-                
-                <TouchableOpacity className='w-full' onPress={() => { router.push('../(tabs)/profile/profile-edit') }}>
+                <TouchableOpacity className='w-full' onPress={() => {
+                    router.push('../(tabs)/profile/profile-edit')
+                }}>
                     <View className='w-full h-[35] rounded-md border-gray-100 border-[1px] justify-center items-center'>
-                    <Text className='font-psemibold text-md tracking-widest opacity-80'>Edit Profile</Text>
+                        <Text className='font-psemibold text-md tracking-widest opacity-80'>Edit Profile</Text>
                     </View>
                 </TouchableOpacity>
             </View>
-        </>
+
+      </>
 
     )
 }
