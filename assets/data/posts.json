@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1",
+    "image": "y6qgu7qj7ppzwo5ihecx",
+    "image_url": "https://i0.wp.com/www.childsplayelc.com.au/wp-content/uploads/2023/01/ChildsPlay-0096.jpg",
+    "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "likes": 12,
+    "user": {
+      "id": "u1",
+      "avatar_url": "samples/people/boy-snow-hoodie",
+      "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
+      "username": "debiwein",
+      "name": "Debora Weinmann"
+    }
+  },
+  {
+    "id": "3",
+    "image": "samples/dessert-on-a-plate",
+    "image_url": "https://www.childcareawaremn.org/wp-content/uploads/2023/02/ALEX_CARROLL_PHOTOGRAPHY_2292022_4Y3A0127-EXPIRE-2028-1024x683.jpg",
+    "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "likes": 5,
+    "user": {
+      "id": "u1",
+      "avatar_url": "samples/bike",
+      "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg",
+      "username": "pinedaliz",
+      "name": "Lizeth Pineda"
+
+    }
+  },
+  {
+    "id": "4",
+    "image": "samples/balloons",
+    "image_url": "https://www.appleblossoms.com.au/apple-2/wp-content/uploads/2016/10/Child-Care-Outdoor-Water-Play-Pump-Apple-Blossoms-Day-Care-1030x687.jpg",
+    "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "likes": 7,
+    "user": {
+      "id": "u1",
+      "avatar_url": "samples/animals/cat",
+      "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg",
+      "username": "shariq",
+      "name": "Hafsa Shariq"
+
+    }
+  },
+  {
+    "id": "2",
+    "image": "samples/woman-on-a-football-field",
+    "image_url": "https://www.collardfamilykindergarten.com.au/images/flash_gallery/23061914275390.jpg",
+    "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "user": {
+      "id": "u1",
+      "avatar_url": "samples/people/smiling-man",
+      "image_url": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
+      "username": "debiwein",
+      "name": "Debora Weinmann"
+
+    }
+  }
+]
